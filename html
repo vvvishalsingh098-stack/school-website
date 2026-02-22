@@ -1,0 +1,69 @@
+# html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EduLearn | Online Education</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">EduLearn</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#courses">Courses</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <h1>Learn Anytime, Anywhere</h1>
+    <p>Professional online education platform</p>
+    <button onclick="scrollToCourses()">Explore Courses</button>
+</section>
+
+<section id="courses" class="courses">
+    <h2>Our Courses</h2>
+    <div class="course-list">
+        <div class="course-card">
+            <h3>Web Development</h3>
+            <p>HTML, CSS, JavaScript & more</p>
+        </div>
+        <div class="course-card">
+            <h3>Python Programming</h3>
+            <p>Beginner to Advanced</p>
+        </div>
+        <div class="course-card">
+            <h3>Data Science</h3>
+            <p>Analytics & Machine Learning</p>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+        EduLearn is a modern e-learning platform providing quality education
+        from industry experts to students worldwide.
+    </p>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 EduLearn. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
